@@ -1,0 +1,501 @@
+/*
+===========================================================================
+  Project: Commodum Copia
+  Auteur: Jordy Hindriks
+  Website: https://xarachcodes.com
+  Datum: 5 maart 2025
+  Versie: 1.0
+  Beschrijving:
+===========================================================================
+*/
+
+/* Top Navigation Bar - Start */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.left-links {
+    margin-left: 10%;
+}
+
+.right-links {
+    margin-right: 10%;
+}
+
+.top-bar .left-links a,
+.top-bar .right-links a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 15px;
+}
+
+.top-bar .right-links span {
+    color: #ccc;
+    margin-right: 10px;
+}
+
+.center-text {
+    flex-grow: 1;
+    text-align: center;
+    color: #333;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-button {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 120px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* Top Navigation Bar - End */
+
+
+
+/* Header Menu - Start */
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.logo img {
+    height: 125x;
+    width: 125px;
+}
+
+.search-section {
+    display: flex;
+    flex-grow: 1;
+    max-width: 500px;
+    margin: 0 20px;
+}
+
+.category-button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+
+.search-section input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-left: none;
+}
+
+.search-button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+.location-section {
+    margin-left: 15px;
+}
+
+.location-button {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+
+.icons-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icons-section a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.badge {
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    padding: 3px 6px;
+    border-radius: 50%;
+}
+
+.main-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.category-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    display: inline;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 10px 15px;
+    display: block;
+}
+
+
+.nav-list a:hover {
+    color: #28a745;
+    font-weight: bold;
+}
+
+
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.phone-text {
+    font-size: 14px;
+    color: gray;
+}
+
+.phone-number {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.support-text {
+    font-size: 12px;
+    color: gray;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    background-color: #d2efe2; 
+    padding: 80px;
+    border-radius: 20px;
+    max-width: none; 
+    min-height: 350px;
+    margin: 30px 0; 
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.banner-content {
+    max-width: 50%;
+}
+
+.banner h1 {
+    font-size: 40px;
+    color: #1c2b2d; 
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.banner p {
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.subscribe-form {
+    display: flex;
+    background: white;
+    border-radius: 30px;
+    overflow: hidden;
+    max-width: 400px;
+    margin-left: 50px;
+}
+
+.subscribe-form input {
+    border: none;
+    padding: 15px;
+    flex-grow: 1;
+    font-size: 16px;
+    outline: none;
+}
+
+.subscribe-form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Products - start */
+.products {
+    margin-left: 10%;
+    margin-right: 3%;
+}
+
+.products h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .filter-bar {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .filter-bar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    padding-bottom: 0.25rem;
+  }
+  
+  .filter-bar a.active {
+    color: #00c28b;
+    border-bottom: 2px solid #00c28b;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .product-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1rem;
+    width: 220px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .product-card .badge {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: #ff4c4c;
+    color: #fff;
+    padding: 0.25rem 0.6rem;
+    font-size: 0.75rem;
+    border-radius: 8px;
+  }
+  
+  .product-card .badge.hot {
+    background-color: #ff4c4c;
+  }
+  
+  .product-card .badge.sale {
+    background-color: #2ca9e1;
+  }
+  
+  .product-card .badge.new {
+    background-color: #2ecc71;
+  }
+  
+  .product-card .category {
+    font-size: 0.85rem;
+    color: gray;
+    margin: 0;
+  }
+  
+  .product-card h3 {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  
+  .product-card .rating {
+    font-size: 0.85rem;
+    color: #ffaa00;
+  }
+  
+  .product-card .brand span {
+    color: #00c28b;
+  }
+  
+  .price {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .price .new {
+    color: #00c28b;
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+  
+  .price .old {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 0.9rem;
+  }
+  
+  button {
+    background: #00c28b;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+  }
+/* Products - End */
+
+/* Footer - start */
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  
+  .footer-column {
+    flex: 1 1 180px;
+    min-width: 180px;
+  }
+  
+  .footer-column h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .logo-section img.footer-logo {
+    width: 130px;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info {
+    list-style: none;
+    padding: 0;
+    font-size: 0.9rem;
+  }
+  
+  .contact-info li {
+    margin-bottom: 0.4rem;
+  }
+  
+  .footer-bottom {
+    margin-top: 2rem;
+    border-top: 1px solid #e6e6e6;
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .footer-bottom .support,
+  .footer-bottom .social {
+    text-align: center;
+  }
+  
+  .footer-bottom .social .icons span {
+    margin: 0 5px;
+    font-size: 1.2rem;
+    display: inline-block;
+    background: #4caf50;
+    color: #fff;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 50%;
+  }
+/* Footer - End */

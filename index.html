@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jordy Hindriks">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Commodum Copia</title>
+</head>
+<body>
+    <header>
+        <!-- Top Navigation Bar - Start -->
+        <div class="top-bar">
+            <div class="left-links">
+                <a href="#">Mijn Winkelwagen</a>
+                <a href="#">Checkout</a>
+                <a href="#">Order Tracking</a>
+            </div>
+            <div class="center-text">
+                Super Value Deals - Bespaar meer met kortingsbonnen
+            </div>
+            <div class="right-links">
+                <div class="dropdown">
+                    <a href="#" class="dropdown-button">Nederlands ▼</a>
+                    <div class="dropdown-content">
+                        <a href="#">Engels</a>
+                        <a href="#">Duits</a>
+                        <a href="#">Frans</a>
+                    </div>
+                </div>
+                <span>|</span>
+                <a href="tel:+3161234">Hulp Nodig? Bel: +316 1234</a>
+            </div>
+        </div>
+        <!-- Top Navigation Bar - End -->
+
+        <!-- Header Menu - Start -->
+        <div class="header-row">
+            <div class="logo">
+                <img src="assets/Copia_logo.jpg" alt="Commodum Copia">
+            </div>
+        
+            <div class="search-section">
+                <button class="category-button">Alle Categorieën ▼</button>
+                <input type="text" placeholder="Zoek voor producten...">
+                <button class="search-button">🔍</button>
+            </div>
+        
+            <div class="location-section">
+                <button class="location-button"> Jouw Locatie ▼</button>
+            </div>
+        
+            <div class="icons-section">
+                <a href="#" class="wishlist">
+                    ❤️ <span class="badge">6</span> Verlanglijst
+                </a>
+                <a href="#" class="cart">
+                    🛒 <span class="badge">2</span> Winkelwagen
+                </a>
+                <a href="#" class="account">
+                    👤 Account
+                </a>
+            </div>
+        </div>
+
+        <div>
+            <nav class="main-navbar">
+                <div class="left-section">
+                    <button class="category-button"> Alle Categorieën ▼</button>
+                    <ul class="nav-list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Info</a></li>
+                        <li><a href="#">Producten</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="right-section">
+                    <span class="phone-text">Copia</span>
+                    <a href="tel:+3161234" class="phone-number">316 - 1234</a>
+                    <span class="support-text">24/7 Hulp lijn</span>
+                </div>
+            </nav>
+        </div>
+
+        <div>
+            <section class="banner">
+                <div class="banner-content">
+                    <h1>Verse Groenten<br>Grote korting</h1>
+                    <p>Bespaar tot 50% op uw eerste bestelling</p>
+                    <div class="subscribe-form">
+                        <input type="email" placeholder="📩 Jouw email address">
+                        <button>Abonneren</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Header Menu - End -->
+    </header>
+
+    <main>
+        <section class="products">
+            <h2>All Products</h2>
+            <div class="filter-bar">
+              <a href="#" class="active">All</a>
+              <a href="#">Milks & Dairies</a>
+              <a href="#">Coffees & Teas</a>
+              <a href="#">Pet Foods</a>
+              <a href="#">Meats</a>
+              <a href="#">Vegetables</a>
+              <a href="#">Fruits</a>
+            </div>
+            <div class="product-list">
+              
+              <!-- Product Card -->
+              <div class="product-card hot">
+                <span class="badge sale">Sale</span>
+                <img src="assets/product-1-1.jpg" alt="Dandy Blend">
+                <p class="category">Snack</p>
+                <h3>Seeds of Change Organic Quinoa, Brown, & Red Rice</h3>
+                <p class="rating">★★★★☆ (4.0)</p>
+                <p class="brand">By <span>Copia</span></p>
+                <div class="price">
+                  <span class="new">€28.85</span>
+                  <span class="old">€32.8</span>
+                </div>
+                <button>Add</button>
+              </div>
+        
+              <div class="product-card hot">
+                <span class="badge sale">Sale</span>
+                <img src="assets/product-10-1.jpg" alt="Pukka">
+                <p class="category">Snack</p>
+                <h3>Pukka, Organic Latte Turmeric Glow</h3>
+                <p class="rating">★★★★☆ (4.0)</p>
+                <p class="brand">By <span>Copia</span></p>
+                <div class="price">
+                  <span class="new">€14.65</span>
+                  <span class="old">€9.8</span>
+                </div>
+                <button>Add</button>
+              </div>
+
+              <div class="product-card hot">
+                <span class="badge hot">Hot</span>
+                <img src="assets/product-11-1.jpg" alt="talenti">
+                <p class="category">Snack</p>
+                <h3>Talenti, Gelato Layers, Salted Caramel Truffle</h3>
+                <p class="rating">★★★★☆ (4.0)</p>
+                <p class="brand">By <span>Copia</span></p>
+                <div class="price">
+                  <span class="new">€6.35</span>
+                  <span class="old">€4.80</span>
+                </div>
+                <button>Add</button>
+              </div>
+
+              <div class="product-card hot">
+                <span class="badge hot">Hot</span>
+                <img src="assets/product-11-2.jpg" alt="talenti">
+                <p class="category">Snack</p>
+                <h3>Talenti, Gelato Layers, Salted Caramel Truffle</h3>
+                <p class="rating">★★★★☆ (4.0)</p>
+                <p class="brand">By <span>Copia</span></p>
+                <div class="price">
+                  <span class="new">€6.85</span>
+                  <span class="old">€4.80</span>
+                </div>
+                <button>Add</button>
+              </div>
+
+              <div class="product-card hot">
+                <span class="badge hot">Hot</span>
+                <img src="assets/product-12-1.jpg" alt="Reishi Coffee">
+                <p class="category">Snack</p>
+                <h3>Reishi Coffee, Dietary Supplement</h3>
+                <p class="rating">★★★★☆ (4.0)</p>
+                <p class="brand">By <span>Copia</span></p>
+                <div class="price">
+                  <span class="new">€10.85</span>
+                  <span class="old">€6.8</span>
+                </div>
+                <button>Add</button>
+              </div>
+
+              <div class="product-card hot">
+                <span class="badge hot">Hot</span>
+                <img src="assets/product-12-2.jpg" alt="Reishi Coffee">
+                <p class="category">Snack</p>
+                <h3>Reishi Coffee, Dietary Supplement</h3>
+                <p class="rating">★★★★☆ (4.0)</p>
+                <p class="brand">By <span>Copia</span></p>
+                <div class="price">
+                  <span class="new">€15.85</span>
+                  <span class="old">€10.8</span>
+                </div>
+                <button>Add</button>
+              </div>
+
+              <div class="product-card hot">
+                <span class="badge hot">Hot</span>
+                <img src="assets/product-13-1.jpg" alt="Power">
+                <p class="category">Snack</p>
+                <h3>Power up! Enery drink - Hoog Caffeine Gehalte</h3>
+                <p class="rating">★★★★☆ (4.0)</p>
+                <p class="brand">By <span>Copia</span></p>
+                <div class="price">
+                  <span class="new">€13.55</span>
+                  <span class="old">€10.8</span>
+                </div>
+                <button>Add</button>
+              </div>
+
+              <div class="product-card hot">
+                <span class="badge hot">Hot</span>
+                <img src="assets/product-14-1.jpg" alt="Power">
+                <p class="category">Snack</p>
+                <h3>Power up! Mango Enery drink - Hoog Caffeine Gehalte</h3>
+                <p class="rating">★★★★☆ (4.0)</p>
+                <p class="brand">By <span>Copia</span></p>
+                <div class="price">
+                  <span class="new">€11.69</span>
+                  <span class="old">€10.50</span>
+                </div>
+                <button>Add</button>
+              </div>
+
+              <div class="product-card hot">
+                <span class="badge hot">Hot</span>
+                <img src="assets/product-15-1.jpg" alt="Sweetleaf">
+                <p class="category">Snack</p>
+                <h3>SweetLeaf Thee - Lekkere witte Thee met L-Theanine!!!</h3>
+                <p class="rating">★★★★☆ (4.0)</p>
+                <p class="brand">By <span>Copia</span></p>
+                <div class="price">
+                  <span class="new">€17.60</span>
+                  <span class="old">€13.8</span>
+                </div>
+                <button>Add</button>
+              </div>
+
+              <div class="product-card hot">
+                <span class="badge hot">Hot</span>
+                <img src="assets/product-16-1.jpg" alt="Superfoods">
+                <p class="category">Snack</p>
+                <h3>Superfoods - Organic Maringa Powder Greens Supplement</h3>
+                <p class="rating">★★★★☆ (4.0)</p>
+                <p class="brand">By <span>Copia</span></p>
+                <div class="price">
+                  <span class="new">€3.85</span>
+                  <span class="old">€2.8</span>
+                </div>
+                <button>Add</button>
+              </div>
+
+              <div class="product-card hot">
+                <span class="badge new">New</span>
+                <img src="assets/product-16-4.jpg" alt="Superfoods">
+                <p class="category">Snack</p>
+                <h3>Superfoods - Organic Cacao Powder Greens Supplement</h3>
+                <p class="rating">★★★★☆ (4.0)</p>
+                <p class="brand">By <span>Copia</span></p>
+                <div class="price">
+                  <span class="new">€18.85</span>
+                  <span class="old">€12.8</span>
+                </div>
+                <button>Add</button>
+              </div>
+
+              <div class="product-card hot">
+                <span class="badge new">New</span>
+                <img src="assets/product-16-4.jpg" alt="Superfoods">
+                <p class="category">Snack</p>
+                <h3>Superfoods - Organic Cacao Powder Greens Supplement</h3>
+                <p class="rating">★★★★☆ (4.0)</p>
+                <p class="brand">By <span>Copia</span></p>
+                <div class="price">
+                  <span class="new">€19.15</span>
+                  <span class="old">€18.15</span>
+                </div>
+                <button>Add</button>
+              </div>
+
+              <div class="product-card hot">
+                <span class="badge new">New</span>
+                <img src="assets/product-16-5.jpg" alt="Dandy Blend">
+                <p class="category">Snack</p>
+                <h3>Superfoods - Organic Spirulina Powder Greens Supplement</h3>
+                <p class="rating">★★★★☆ (4.0)</p>
+                <p class="brand">By <span>Copia</span></p>
+                <div class="price">
+                  <span class="new">€28.85</span>
+                  <span class="old">€32.8</span>
+                </div>
+                <button>Add</button>
+              </div>
+
+              <div class="product-card hot">
+                <span class="badge new">New</span>
+                <img src="assets/product-16-6.jpg" alt="Dandy Blend">
+                <p class="category">Snack</p>
+                <h3>Seeds of Change Organic Quinoa, Brown, & Red Rice</h3>
+                <p class="rating">★★★★☆ (4.0)</p>
+                <p class="brand">By <span>Copia</span></p>
+                <div class="price">
+                  <span class="new">€8.85</span>
+                  <span class="old">€5.8</span>
+                </div>
+                <button>Add</button>
+              </div>
+            </div>
+          </section>
+    </main>
+
+    <footer class="site-footer">
+        <div>
+            <section class="banner">
+                <div class="banner-content">
+                    <h1>Stay home & get your daily<br>Needs from our shop</h1>
+                    <p>Start your daily Shopping with Copia</p>
+                    <div class="subscribe-form">
+                        <input type="email" placeholder="📩 Jouw email address">
+                        <button>Abonneren</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="footer-container">
+          <div class="footer-column logo-section">
+            <img src="assets/Copia_logo.jpg" alt="Copia Logo" class="footer-logo">
+            <p>Commodum Copia</p>
+            <ul class="contact-info">
+              <li><strong>📍 Address:</strong> Groningen 9714RT</li>
+              <li><strong>📞 Call Us:</strong> (+316 1234)</li>
+              <li><strong>📧 Email:</strong> sale@Copia.com</li>
+              <li><strong>🕒 Hours:</strong> 10:00 - 18:00, Man - Zat</li>
+            </ul>
+          </div>
+      
+          <div class="footer-column">
+            <h4>Company</h4>
+            <ul>
+              <li>About Us</li>
+              <li>Delivery Information</li>
+              <li>Privacy Policy</li>
+              <li>Terms & Conditions</li>
+              <li>Contact Us</li>
+              <li>Support Center</li>
+              <li>Careers</li>
+            </ul>
+          </div>
+      
+          <div class="footer-column">
+            <h4>Account</h4>
+            <ul>
+              <li>Sign In</li>
+              <li>View Cart</li>
+              <li>My Wishlist</li>
+              <li>Track My Order</li>
+              <li>Help Ticket</li>
+              <li>Shipping Details</li>
+              <li>Compare products</li>
+            </ul>
+          </div>
+      
+          <div class="footer-column">
+            <h4>Corporate</h4>
+            <ul>
+              <li>Become a Vendor</li>
+              <li>Affiliate Program</li>
+              <li>Farm Business</li>
+              <li>Farm Careers</li>
+              <li>Our Suppliers</li>
+              <li>Accessibility</li>
+              <li>Promotions</li>
+            </ul>
+          </div>
+      
+          <div class="footer-column">
+            <h4>Popular</h4>
+            <ul>
+              <li>Milk & Flavoured Milk</li>
+              <li>Butter and Margarine</li>
+              <li>Eggs Substitutes</li>
+              <li>Marmalades</li>
+              <li>Sour Cream and Dips</li>
+              <li>Tea & Kombucha</li>
+              <li>Cheese</li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="footer-bottom">
+          <p>© 2025, <strong>Copia</strong> -  All rights reserved</p>
+          <div class="support">
+            <p><strong>📞 316 - 1234</strong><br>24/7 Support Center</p>
+          </div>
+          <div class="social">
+            <p><strong>Follow Us</strong></p>
+            <div class="icons">
+              <span>📘</span>
+              <span>🐦</span>
+              <span>📷</span>
+              <span>📌</span>
+              <span>▶️</span>
+            </div>
+            <p>Up to 15% discount on your first subscribe</p>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
